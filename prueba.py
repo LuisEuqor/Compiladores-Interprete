@@ -68,10 +68,10 @@ def analizador(input_string,i):
                 lista.append([nuevo_estado,lexema,"INT",i])
                 pass
             else:
-                print(lista)
+                #print(lista)
                 lista.append([nuevo_estado,lexema,"",i])
                 pass
-                
+        
                 
 
 def lectura_datos(datos):
@@ -82,7 +82,6 @@ def lectura_datos(datos):
         for caracter in aux:
             analizador(caracter,i=palabra[1])
                 
-
                 
         
 
@@ -96,7 +95,7 @@ for linea in archivo:
     datos.append([linea.strip('\n').lower(),i])
 lectura_datos(datos)
 
-
+print(lista)
 
 
 
