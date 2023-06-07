@@ -6,4 +6,5 @@ si a=2 entonces
     para 
 si 
 mientras <=
+==
     "hola"  
